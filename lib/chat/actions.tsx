@@ -477,6 +477,8 @@ async function submitUserMessage(content: string) {
     }
   })
 
+  console.log(result.value)
+
   return {
     id: nanoid(),
     display: result.value
